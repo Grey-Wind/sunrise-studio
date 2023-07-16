@@ -1,1 +1,0 @@
-hexo clean && hexo generate && start http://localhost:4000/ && hexo server
