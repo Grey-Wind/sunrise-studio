@@ -1,0 +1,147 @@
+# ====================================================
+# Site configuration
+# ====================================================
+
+# Site information
+title:
+subtitle:
+description:
+keywords:
+
+# Favicon
+favicon: /assets/favicon.ico
+
+# Main navigation menu
+menu:
+  Home: /
+  Archives: /archives
+  Categories: /categories
+  Tags: /tags
+
+# Copyright statement
+# Use HTML tags for formatting if needed
+copyright:
+
+# Avatar
+avatar:
+
+# RSS subscription link
+rss:
+
+# ====================================================
+# Sidebar configuration
+# ====================================================
+
+# Sidebar style (default, card, or compact)
+sidebar_style: default
+
+# Show widget titles in the sidebar
+show_widget_title: true
+
+# Social links
+social_links:
+  GitHub:
+    url: https://github.com/Grey-Wind
+    icon: github
+  Twitter:
+    url: https://twitter.com/GreyWind_Chen
+    icon: twitter
+  Facebook:
+    url:
+    icon: facebook
+  LinkedIn:
+    url:
+    icon: linkedin
+  Instagram:
+    url:
+    icon: instagram
+  YouTube:
+    url: https://youtube.com/@GreyWindInnit/
+    icon: youtube
+  Pinterest:
+    url:
+    icon: pinterest
+  TikTok:
+    url:
+    icon: tiktok
+
+# Sidebar widgets
+widgets:
+  - search
+  - category
+  - tag
+  - recent_posts
+  - archive
+  - tagcloud
+  - links
+  - about
+
+# ====================================================
+# Comment configuration
+# ====================================================
+
+# Comment system (disqus, gitalk, utterances, livere or valine)
+comment_system: disqus
+
+# Disqus
+disqus_shortname:
+
+# Gitalk
+gitalk:
+  enable: false
+  clientID:
+  clientSecret:
+  repo:
+  owner:
+  admin:
+  perPage:
+  language:
+
+# Utterances
+utterances:
+  enable: false
+  repo:
+  issueTerm: pathname
+  label:
+  theme:
+
+# Livere
+livere_uid:
+
+# Valine
+valine:
+  enable: false
+  appId:
+  appKey:
+  notify: false
+  verify: false
+  avatar: mm
+  placeholder: Leave a comment
+
+# ====================================================
+# Page layout configuration
+# ====================================================
+
+# Layout style (wide or narrow)
+layout_style: narrow
+
+# Hide sidebar on specific pages (separate with commas)
+hide_sidebar_on:
+  - /about
+  - /categories
+  - /tags
+
+# Custom page styles
+# Add your custom CSS file paths here
+custom_css:
+
+# ====================================================
+# Advanced configuration
+# ====================================================
+
+# Hexo generator
+# Must be hexo, hexo-next-indexed-list or hexo-generator-seo-friendly
+hexo_generator: hexo
+
+# Auto use `Summary` in the post
+auto_excerpt:
